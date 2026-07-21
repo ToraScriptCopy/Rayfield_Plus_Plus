@@ -26,8 +26,8 @@
    - `source+.lua` – the Rayfield++ extension.
 2. Load them in the correct order in your script:
    ```lua
-   local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/source.lua"))()
-   local RayfieldPlus = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/source+.lua"))()
+   local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScriptCopy/Rayfield_Plus_Plus/refs/heads/main/source.lua"))()
+   local RayfieldPlus = loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScriptCopy/Rayfield_Plus_Plus/refs/heads/main/source%2B.lua"))()
    RayfieldPlus.extend(Rayfield)
    ```
    After that, every `Rayfield:CreateWindow()` call will return windows with all the new goodies.
