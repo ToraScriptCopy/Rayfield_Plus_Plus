@@ -1,8 +1,4 @@
-# Rayfield++ – The Ultimate Rayfield Extension
-
-Hey there, Rayfield user!  
-If you're tired of the same old UI elements and want to take your interface to the next level – you've come to the right place.  
-I've built an extension that adds a bunch of new features while keeping the original Rayfield look and feel. No alien styles – everything fits right in.
+# Rayfield++ 
 
 ## What's New?
 
@@ -121,9 +117,6 @@ Tab:CreateButton({ Name = "Settings", Callback = function() end, Image = "craft:
 
 This extension is built for Rayfield Build 1.749 (the one included in this repo). If you're using a much older or newer version, there might be slight differences – I recommend using the provided `source.lua` for best results.
 
-## Support
-
-Found a bug or have an idea for a new feature? Open an Issue on GitHub. I'm always happy to hear feedback!
 
 ---
 
